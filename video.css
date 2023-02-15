@@ -23,6 +23,13 @@
     width: 90%;
     line-height: 25px;
 }
+
+#video_heading2{
+
+    color: blue;
+
+}
+
 #info-section{
     display: flex;
     height: 100%;
@@ -54,6 +61,8 @@ align-items: center;
 #section-1>div{
 height: 100%;
 }
+
+
 
 
 #channel_image img{

@@ -17,7 +17,18 @@ document.getElementById("filtersdiv").innerHTML=filterbtn()
 let data= JSON.parse(localStorage.getItem("video_data"))
 
 console.log(data)
-
+let bag = "";
+let tag = data.snippet.tags;
+let g =0;
+for(let el of tag){
+    if(g<5){
+bag+="#"+el+" "
+    }
+    else{
+        break
+    }
+    g++
+}
 
 let video_id = data.id.videoId || data.id
 
@@ -30,13 +41,14 @@ child1.innerHTML=`
 
 let display_data=data.snippet
 
-console.log(display_data)
+
 
 
  let info_container=document.getElementById("container")
 
+
  info_container.innerHTML=`
- 
+  <div id="video_heading2">${bag}</div>
  <div id="video_heading">${display_data.title}</div>
 
 
@@ -63,6 +75,8 @@ console.log(display_data)
 </div>
 </div>
 <div id="decription">
+PUBLISH AT : ${data.snippet.publishedAt}
+<br>
 ${display_data.description}
 </div>
 `
