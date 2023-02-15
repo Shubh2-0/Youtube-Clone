@@ -32,6 +32,7 @@ bag+="#"+el+" "
 
 let video_id = data.id.videoId || data.id
 
+let channel_picture =  await channel(data.snippet.channelId)
 
 
 child1.innerHTML=`
@@ -56,7 +57,7 @@ let display_data=data.snippet
 
 <div id="section-1">
 
-<div id="channel_image"><img src="https://yt3.ggpht.com/c4-uzXrSkdfL51tztAxxN_PTRa3pfXhh7NqCXFaksGA6HkXOR47It_HwxUfAlJZYff2SN-xcKg=s88-c-k-c0x00ffffff-no-rj"  alt=""></div>
+<div id="channel_image">  <img src="${channel_picture}"  class="channel-icon" alt=""></div>
 <div id="channel_name"><p id="chnlname">${display_data.channelTitle}</p>
     <p id="subscribers"><span>99.7k</span>subscribers</p>
 </div>
