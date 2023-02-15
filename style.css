@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+*:focus{
+    outline: none;
+}
+
+body{
+    position: relative;
+    background: #f0f0f0 ;
+    font-family: "roboto" , sans-serif;
+}
+
+
+/* navbar  */
+
+#navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0 2.5vw;
+}
+
+/* list icon */
+.toggle-btn{
+    width: 20px;
+    height: 10px;
+    position: relative;
+    cursor: pointer;
+}
+.toggle-btn span{
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    top: 50%;
+    transform: translateY (-50%);
+    background: #979797;
+}
+
+.toggle-btn span:nth-child(1){
+top: 0;
+}
+
+.toggle-btn span:nth-child(3){
+top: 100%;
+}
+
+
+/* youtube icon style  */
+
+.logo{
+    height: 30px; 
+    margin: -10px 30px 0;
+}
+
+/* search box  */
+.search-box{
+    position: relative;
+    max-width: 500px;
+    width: 50%;
+    height: 35px;
+    display: flex;
+}
+
+/* input box where the user type  */
+.search-bar{
+    width: 90%;
+    height: 100%;
+    border: 2px solid #dbdbdb;
+    padding: 0 20px;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+/* button  where user click and content appear */
+.search-btn{
+    width: 10%;
+    height: 100%;
+    background: #f0f0f0;
+    border: 2px solid #dbdbdb;
+    border-left: none;
+   padding-top: 3PX;
+}
+.search-btn img{
+    width: 50%;
+}
+
+
+
+/* user option icon div */
+.user-options{
+height: 35px;
+display: flex;
+margin-left: auto;
+align-items: center;
+gap: 10px;
+}
+/* user option icon */
+.user-options .icons{
+    height: 80%;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+/* user-dp div  */
+.user-dp{
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+/* user dp image */
+.user-dp img{
+    width: 100%;
+    height: 100%;
+   object-fit: cover;
+}
+
+/* slide-bar  */
+.slide-bar{
+    position: fixed;
+    top: 60px;
+    left: 0;
+    min-width: 250px;
+    width: 250px;
+    height: calc(100vh - 60px);
+    background: #fff;
+    padding-right: 10px;
+}
+
+/* slide-bar links  */
+.Links{
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    color: #242424;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+/* slide-bar links images */
+.Links img{
+    height: 25px;
+    margin-right:20px ;
+}
+
+.Links:hover , .Links.active{
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.seperator{
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    margin: 20px 0;
+}
+
+/* filters */
+.filters{
+    position: fixed;
+    left: 250px;
+    top: 60px;
+    width: calc(100% - 250px);
+    height: 70px;
+    background: #fff;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    overflow-x:auto ;
+    overflow-y: hidden;
+    padding-top: 10px;
+}
+.filters::-webkit-scrollbar{
+    width: 0;
+}
+
+
+.filter-options{
+    flex:  0 0 auto;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background: #f0f0f0;
+    border: 1px solid #dbdbdb;
+    margin-right: 10px;
+    color: #242424;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+.filter-options.active{
+    color: #fff;
+    background:#242424;
+}
+.filters button:hover{
+background-color: #fff;
+color: #242424;
+font-weight: 700;
+}
+
+/* video container div */
+.container{
+    width: calc(100% - 250px);
+    margin-top: 120px;
+    margin-left: 250px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-gap: 20px 10px;
+    overflow-x: hidden;
+}
+
+.video{
+    min-height: 250px;
+    height: auto;
+    cursor: pointer;
+}
+
+.thumbnail{
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+}
+
+.content{
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.channel-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.title{
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+}
+
+.channel-name{
+    font-size: 14px;
+    margin: 2px 0;
+    color: #979797;
+}

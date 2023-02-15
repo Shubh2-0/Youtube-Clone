@@ -1,0 +1,187 @@
+
+#parent{
+ margin: 70px 0px 0px 10px;
+ display: flex;
+ height: 550px;
+ gap: 10px;
+}
+#first-child{
+     width: 70%;
+}
+#first-child iframe{
+    width: 100%;
+    height: 100%;
+}
+#container{
+    width: 70%;
+   padding: 10px;
+}
+#video_heading{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: sans-serif;
+    width: 90%;
+    line-height: 25px;
+}
+#info-section{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+#info-section button:hover{
+    cursor: pointer;
+    background: rgb(223, 221, 221);
+}
+
+
+
+#section-1{
+display: flex;
+align-items: center;
+}
+
+#section-1 p{
+    font-family: sans-serif;
+}
+
+#subscribers{
+    color: gray;
+    font-size: 13px;
+}
+#section-1>div{
+height: 100%;
+}
+
+
+#channel_image img{
+    width: 60%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+#sunscribbtn{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    font-size: 17px;
+}
+
+#sunscribbtn button{
+    font-size: 17px;
+    border-radius: 30px;
+    border: none;
+    padding: 10px 20px;
+    background-color: rgb(200, 200, 200);
+}
+
+#section-2{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+#section-2 button{
+    height: 50%;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+    background: rgb(200, 200, 200);
+
+}
+
+
+
+#section-2 > #like{
+    border-radius: 0%;
+    border-radius: 20px 0px 0px 20px;
+    margin-left: 0;
+}
+#section-2 > #dislike{
+    border-radius: 0%;
+    border-radius: 0px 20px 20px 0px;
+ margin-left: -3%;
+ border-left: 1px solid rgb(178, 166, 166);
+}
+#decription{
+    background-color: rgb(227, 233, 238);
+    width: 70%;
+    height: 400px;
+    border-radius: 50px;
+    padding: 20px;
+}
+#second-child{
+    width: 30%;
+}
+
+#second-child button{
+    background: rgb(229, 226, 226);
+}
+
+#second-child .active{
+   background-color: black;
+   color: white;
+
+}
+
+#second-child button:hover{
+    background: rgb(216, 213, 213);
+}
+
+#append_data{
+height: 400px;
+width: 95%;
+}
+
+#datahere{
+    display: flex;
+    gap: 5px;
+}
+
+#datahere:hover{
+    background: rgb(232, 232, 232);
+    border-radius: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#chnl_image{
+    width: 50%;
+    height: 100%;
+}
+
+#infohere{
+    width: 60%;
+}
+#infohere h4{
+ height: 34%;
+ overflow: hidden;
+ font-size: 15px;
+}
+
+#infohere p{
+    color: gray;
+   margin-top: 5px;
+   font-size: 13px;
+}
+
+
+#datahere img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+#filtersdiv{
+    height: fit-content;
+    display: flex;
+    overflow: scroll;
+}
+#filtersdiv::-webkit-scrollbar{
+    width: 0;
+}
+
