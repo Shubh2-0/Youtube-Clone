@@ -4,6 +4,9 @@
 
 This amazing project allows users to search for videos, watch them in fullscreen mode, control playback (play, pause), adjust playback speed (slow down or speed up), and search for videos using keywords. Get ready for an exciting and immersive video experience! 🌟📺
 
+<img src="https://github.com/Shubh2-0/Shubh2-0.github.io/blob/main/Assets/images/projects/youtube.png">
+
+
 ## Features
 
 🔍 **Video Search**: Users can easily search for videos by entering keywords. The application leverages the power of the Youtube API to fetch relevant search results and display them in a user-friendly manner.
