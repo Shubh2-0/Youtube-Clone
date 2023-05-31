@@ -26,10 +26,7 @@ The Youtube Clone project harnesses the power of these amazing technologies:
 
 **Youtube API**: By integrating the Youtube API, our project gains access to a vast library of videos, enabling seamless video playback and search functionality. Get ready to explore a world of endless entertainment! 🌍📹
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="JavaScript" width="50" />
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML" width="50" />
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS" width="50" />
-<img src="https://github.com/Shubh2-0/Youtube-Clone/assets/112773220/0bbcae91-bdba-4da3-9d6c-adcacc59908a" alt="Youtube API" width="50" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="JavaScript" width="50" /> <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML" width="50" /> <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS" width="50" /> <img src="https://github.com/Shubh2-0/Youtube-Clone/assets/112773220/0bbcae91-bdba-4da3-9d6c-adcacc59908a" alt="Youtube API" width="50" />
 
 ## Project Link
 
