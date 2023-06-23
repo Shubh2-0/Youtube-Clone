@@ -17,7 +17,7 @@ This amazing project allows users to search for videos, watch them in fullscreen
 
 ⏩⏪ **Playback Speed**: Want to breeze through a tutorial or slow down a thrilling action scene? No problem! Our playback speed feature lets you adjust the video speed to match your preferences. Speed up or slow down, the choice is yours! ⚡
 
-## Tech Stack
+## Tech Stack 
 
 The Youtube Clone project harnesses the power of these amazing technologies:
 
