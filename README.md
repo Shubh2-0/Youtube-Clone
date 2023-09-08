@@ -1,4 +1,4 @@
-# Youtube Clone
+# Youtube Clone 📽
 
 🚀 Welcome to the Youtube Clone project! 🎉🎥
 
