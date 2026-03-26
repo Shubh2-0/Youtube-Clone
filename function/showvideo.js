@@ -6,7 +6,7 @@ const show1 = () =>{
 
 let API_KEYS =["AIzaSyASPLAWmjCPDRoiMtt1AHGQ0TGyRx9wTRU","AIzaSyASPLAWmjCPDRoiMtt1AHGQ0TGyRx9wTRU","AIzaSyBihnXKUmx9h6DHAlTNkrZ-6znzrz3ME1M","AIzaSyA8HVQEsyROLmeZ4P3GhKRCU2BajTnJUNc","AIzaSyAgE8JOY06kJSUxBYYXCGKhQnhx1qD8jdA"]
 
-let num= Math.floor(Math.random()*2)
+let num= Math.floor(Math.random()*API_KEYS.length)
  
 let API_KEY = API_KEYS[num]
 

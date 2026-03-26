@@ -29,7 +29,7 @@ display: flex;
 height: 100%;
 }
 
-#swction-1 #channel_image{
+#section-1 #channel_image{
     border-radius: 50%;
     overflow: hidden;
     background-color :#00947F;
